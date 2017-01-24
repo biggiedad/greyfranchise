@@ -2,6 +2,13 @@ body {
     margin: 0px;
     font-family:  "Open Sans",sans-serif;
 }
+header {
+    background-position: fixed;
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+    background: #fff;
+}
 .container {
     width: 100%;
     margin: 0px;

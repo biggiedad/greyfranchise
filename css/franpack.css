@@ -2,12 +2,6 @@ body {
     margin: 0px;
     font-family:  "Open Sans",sans-serif;
 }
-// header {
-//     position: fixed;
-//     width: 100%;
-//     opacity: 0.8;
-//     background: #fff;
-// }
 .container {
     width: 100%;
     margin: 0px;
@@ -58,96 +52,30 @@ li.dropdown:hover > .dropdown-menu {
         box-shadow: 0px 4px 8px 0px rgb(188, 196, 202);
 }
 
-.navbar {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 0px !important;
-    border: 1px solid transparent;
-}
-#tab1 {
-    margin-top: 20px;
-    margin-left: 31px;
-    padding-left: 9px;
-    padding-right: 40px;
-}
-#tab2 {
-    margin-top: 20px;
-    margin-left: -7px;
-    padding-left: 0px;
-    padding-right: 36px;
-    margin-left: -32px;
-    margin-bottom: 10px;
-
-}
-h1 {
-    color: #ED262D;
-    font-stretch: condensed
-}
-td {
-    font-size: 17px;
-    line-height: 27px;
-    width: 100%;
-}
-#butt1 {
-    width: auto;
-    background-color: #ED262D;
-    color: white;
-    font-size: 15px;
-    border: none;
-    height: 51px;
-    margin-top: 17px;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
-#butt2 {
-    width: auto;
-    background-color: #ED262D;
-    color: white;
-    font-size: 15px;
-    border: none;
-    height: 51px;
-    margin-top: 46px;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
-.bann1 {
-    content: url(../images/im1.jpg);
-    width: auto;
-    height: 311px;
-    margin-top: 52px;
-    padding-left: 0px;
-    padding-right: 18px;
-    margin-left: -28px;
+#mynavbar {
+    margin: 0px !important;
+    border-radius: 0px;
+    border-style: none;
+    top: 10px;
+} 
+// ..../header End................................
+.bannerwrapper {
+  height: 400px;
+  background-image: url("../images/greyAreaBack.jpg");
 }
 
-.bann2 {
-    content: url(../images/im2.jpg);
-    width: auto;
-    height: 218px;
-    margin-top: 72px;
-    margin-left: -13px;
-    border-radius: 34%;
-}
-.bann2b {
-    content: url(../images/im4.png);
-    width: auto;
-    height: 307px;
-    margin-top: 29px;
-    margin-left: -13px;
-    border-radius: 34%;
-}
-.bann1b {
-    content: url(../images/im5.jpg);
-    width: 100%;
-    height: 311px;
-    border-radius: 50%;
-    height: 264px;
-    margin-top: 52px;
-    padding-left: 0px;
-    padding-right: 18px;
-    margin-left: -28px;
-}
 
+
+
+
+
+
+
+
+
+
+// footer Begins..................................
+// ...............................................
 #con {
     background-color: #1E2C2D;
     color: white;
@@ -166,6 +94,9 @@ td {
         color: crimson;
        margin-top: -5px;
    }
+#con h3 {
+color: #fff;
+}
 #con ul li {
     cursor:pointer;
 }
@@ -212,24 +143,4 @@ i {
 .footul li a{
     color: #fff;
 }
-
-
-
-
-
-// fancpack.css
-
-.bannerwrapper {
-    height: auto;
-}
-
-.banner {
-  height: auto;
-  background-image: url("../images/greyAreaBack.jpg");
-}
-
-.sppan {
-    color: #ED262D;
-    text-transform: uppercase;
-    font-weight: 600;
-}
+// footer end...................................
