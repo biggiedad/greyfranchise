@@ -4,3 +4,10 @@
     font-weight: 100;
     font-style: Regular;
 }
+
+@font-face {
+    font-family: MuseoSansCyrl;
+    src: url(MuseoSansCyrl-100.otf);
+    font-weight: 100;
+    font-style: Regular;
+}

@@ -1,8 +1,3 @@
-/*.container {
-    margin: 0px;
-    padding: 0px;
-
-}*/
 .logo {
     content: url(../images/real.png);
     margin-top: 30px;
@@ -18,9 +13,11 @@
     float: right;
     width: 172px;
     background-color: #ED262D;
+    font-family: MuseoSansCyrl;
 }
 .navbar-inverse{
     border-radius: 0px;
+    font-family: MuseoSansCyrl;
 }
 .navbar-inverse .navbar-nav > li.dropdown:hover > a, 
 .navbar-inverse .navbar-nav > li.dropdown:hover > a:hover,
