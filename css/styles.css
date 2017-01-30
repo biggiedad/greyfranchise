@@ -1,6 +1,7 @@
 body {
     margin: 0px;
-    font-family:  "Open Sans",sans-serif;
+    font-family: MuseoSansCyrl;
+
 }
 
 .container {
@@ -98,6 +99,7 @@ td.tab2 {
     letter-spacing: 3px;
     border-radius: 5px;
     text-transform: uppercase;
+    font-family: MuseoSansCyrl;
 }
 
 #butt2 {
@@ -110,6 +112,7 @@ td.tab2 {
     margin-top: 46px;
     border-radius: 5px;
     text-transform: uppercase;
+    font-family: MuseoSansCyrl;
 }
 
 .bann1 {
@@ -138,9 +141,14 @@ td.tab2 {
     border-radius: 50%;
     background-size: 100% auto;
 }
+
 #con {
-    background-color: #1E2C2D;
-    color: white;
+    background-color: #FFF;
+    color: #000;
+    font-size: 10px;
+    line-height: 16px;
+ 
+    font-family:MuseoSansCyrl;
 }
 
 #con button {
@@ -148,14 +156,23 @@ td.tab2 {
         color: crimson;
        margin-top: -5px;
 }
+#con ul {
+    padding-left: 0px;
+}
 
 #con ul li {
     cursor:pointer;
+    text-align: left;
+    margin-top: 0;
+    list-style: none;
+    font-weight: 400;
+       text-transform: capitalize !important;
 }
 
 #cont {
     background-image: url(../images/bg.jpg);
     height: auto;
+    font-family: MuseoSansCyrl;
 }
 
 .row {
@@ -169,6 +186,8 @@ i {
 .copyright { 
     min-height:40px;
     background-color:#000000;
+    font-size: 12px;
+    font-family:MuseoSansCyrl;
  }
 
  .copyright p { 
@@ -202,7 +221,7 @@ i {
 }
 
 .footul li a{
-  color: #fff;
+  color: #000;
 }
 
 
@@ -245,3 +264,5 @@ table#albums {
     margin-top: 22px;
 }
 
+// transup.css
+ 
